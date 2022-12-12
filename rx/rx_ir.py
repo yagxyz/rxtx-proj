@@ -2,8 +2,8 @@ import time
 import RPi.GPIO as GPIO
 
 from Adafruit_IO import Client, RequestError, Feed  #Importando biblioteca
-ADAFRUIT_IO_USERNAME = "YuniorAG_io" # Nome de usuario Adafruit
-ADAFRUIT_IO_KEY = "f02ab6736b0e4b23b0b95f661ce2e5ee" #Senha Adafuit
+ADAFRUIT_IO_USERNAME = "user" # Nome de usuario Adafruit
+ADAFRUIT_IO_KEY = "key" #Senha Adafuit
 #Configurando Adafuit
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 Light_room = aio.feeds('light-room')
